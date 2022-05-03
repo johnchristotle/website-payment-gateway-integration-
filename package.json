@@ -1,0 +1,31 @@
+{
+  "name": "website-payment-gateway-integration",
+  "version": "1.0.0",
+  "description": "Integration of Strip Payment into a Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "files.associations": {
+    "*.ejs": "html"
+  },
+  "emmet.includeLanguages": {
+    "ejs": "html"
+  },
+  "html.format.templating": true,
+  "keywords": [
+    "Payment Gateway",
+    "API",
+    "Backend"
+  ],
+  "author": "Agholor Christotle",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.7",
+    "express": "^4.17.3",
+    "stripe": "^8.219.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
